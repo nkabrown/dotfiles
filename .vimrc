@@ -10,14 +10,8 @@ execute pathogen#infect()
 " Switch syntax highlighting on.
 syntax on
 
-" Set colorscheme to Solarized
-" syntax enable
-" set background=light
-" let g:solarized_termcolors=256
-" colorscheme solarized
-
-" Set colorscheme to jellybeans.
-colorscheme jellybeans
+" Set colorscheme to [jellybeans, sorcerer]
+colorscheme sorcerer
 
 " Enable filetype detection and do language-independent indenting.
 filetype plugin indent on
